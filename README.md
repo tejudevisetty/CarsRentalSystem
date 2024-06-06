@@ -19,9 +19,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
-### Cloning the Repository
-1. Clone this repository to your local machine using the following command:
-```bash
+1. **Clone the Repository:**
 
 git clone https://github.com/tejudevisetty/CarsRentalSystem.git
 
@@ -30,6 +28,21 @@ git clone https://github.com/tejudevisetty/CarsRentalSystem.git
 - Create a MySQL database and tables using the provided SQL scripts in the `database` directory.
 - Update the database connection settings in `src/main/java/com/carrental/util/DBConnection.java` if necessary.
 
+3. **Build the Project:**
+
+cd cars-rental-system
+mvn clean package
+
+
+## Usage
+
+1. **Run the Application:**
+
+2. **Interact with the Application:**
+
+- Follow the on-screen prompts to navigate through the application.
+- Use the menu options to add, view, update, or delete customer and car records.
+- Make bookings and manage them through the provided options.
 ## Contributing
 
 Contributions are welcome! Please feel free to fork the repository, make pull requests, and submit any issues.
