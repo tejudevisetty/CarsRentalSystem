@@ -1,5 +1,5 @@
 
-package com.example;
+package com.example.carrental;
 
 import com.example.carrental.dao.CarDAO;
 import com.example.carrental.dao.CustomerDAO;
